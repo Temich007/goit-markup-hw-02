@@ -1,7 +1,9 @@
 :root {
   --main-font: "Roboto", sans-serif;
-  --secondary-font:"Raleway", sans-serif;
   --accent-color: #2196f3;
+  --title-text-color: black;
+  --primary-white-color: white;
+  --primary-text-color:black;
 }
 
 .list {
@@ -13,7 +15,11 @@
 }
 
 body {
+  background: #E5E5E5;
   font-family: var(--main-font);
+  color: var(--primary-text-color);
+  color: var(--title-text-color)
+
 }
 
 /* ============Components=========== */
@@ -24,26 +30,35 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.logo-text{
+font-family:  "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+} 
+
+
 /* ===========End Components========== */
 
 /*--------- Header--------- */
-.menu-link {
+.logo-blue{
+  color: var(--accent-color);
+}
+.menu-link,
+.mail-link,
+.tel-link{
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-} 
+}
 
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
-}
-
-.mail-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .mail-link:hover,
@@ -51,12 +66,6 @@ body {
   color: var(--accent-color);
 }
 
-.tel-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 
 .tel-link:hover,
 .tel-link:focus {
@@ -71,13 +80,11 @@ body {
   font-size: 16px;
   line-height: 1.87;
   background-color: transparent;
+  cursor: pointer;
+  background-color: #2196f3;
+  color:white;
 }
 
-.modal-bth:hover,
-.modal-bth:focus {
-  color: #ffffff;
-  background: var(--accent-color);
-}
 
 .hero-title {
   font-weight: 900;
@@ -86,7 +93,15 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color:white
 }
+
+/* ==============works============= */
+.works{
+  background-color: #2F303A;
+}
+
+
 /* ===========Features============= */
 .features-title {
   font-weight: 700;
@@ -105,23 +120,82 @@ body {
 /* ===========End Features============= */
 
 /* =============== team============ */
-.team-title{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
-.team-text{
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /* ============End team============ */
 
 /* ========== footer=========== */
+.page{
+  background-color: #2F303A;
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+
+}
+.address-tel-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+
+}
+.address-mail-link {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+ color:#FFFFFF;
+}
+ /* ==========end footer=========== */
+
+
+ /* ============Классы для портфолио============= */
+  /* ===============main=================== */
+.filters-item-bth{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+ cursor: pointer;
+}
+.filters-item-bth:hover,
+.filters-item-bth:focus{
+  color: var(--accent-color);
+}
+
+ .project-title{
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+ }
+
+.description{
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
+/* ===================== end main==================== */
+
+
+
+
