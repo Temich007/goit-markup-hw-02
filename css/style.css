@@ -31,21 +31,28 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.logo-text{
-font-family:  "Raleway", sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-} 
+
 
 
 /* ===========End Components========== */
 
 /*--------- Header--------- */
+
+.font{
+background-color: #FFFFFF;
+}
 .logo-blue{
   color: var(--accent-color);
 }
+.logo-text-header{
+ color: var(--primary-text-color); 
+font-family:  "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
 .menu-link,
 .mail-link,
 .tel-link{
@@ -120,6 +127,10 @@ letter-spacing: 0.03em;
 /* ===========End Features============= */
 
 /* =============== team============ */
+
+.fs{
+  background-color: #F5F4FA;
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -142,7 +153,17 @@ letter-spacing: 0.03em;
   background-color: #2F303A;
 }
 
+.logo-text{
+color: var(--primary-white-color);
+font-family:  "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+} 
+
 .address-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -156,20 +177,31 @@ letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.6);
 
 }
 .address-mail-link {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
- color:#FFFFFF;
+ color: rgba(255, 255, 255, 0.6);
 }
  /* ==========end footer=========== */
 
 
  /* ============Классы для портфолио============= */
+ /* ==================header=============== */
+
+  .color{
+    background-color: #ECECEC;
+  }
+  /* ============end header============= */
   /* ===============main=================== */
+.backcolor{
+  background-color: #EEEEEE;
+}
+  
 .filters-item-bth{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
