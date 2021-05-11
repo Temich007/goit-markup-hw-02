@@ -4,6 +4,7 @@
   --title-text-color: black;
   --primary-white-color: white;
   --primary-text-color:black;
+  --secondary-blue-color:#2196f3;
 }
 
 .list {
@@ -18,7 +19,7 @@ body {
   background: #E5E5E5;
   font-family: var(--main-font);
   color: var(--primary-text-color);
-  color: var(--title-text-color)
+  color: var(--title-text-color);
 
 }
 
@@ -35,6 +36,10 @@ body {
 /* ===========End Components========== */
 
 /*--------- Header--------- */
+
+.menu-link .current{
+   color: var(--accent-color);
+}
 
 .font{
 background-color: #FFFFFF
