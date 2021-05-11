@@ -32,14 +32,12 @@ body {
   color: #212121;
 }
 
-
-
 /* ===========End Components========== */
 
 /*--------- Header--------- */
 
 .font{
-background-color: #FFFFFF;
+background-color: #FFFFFF
 }
 .logo-blue{
   color: var(--accent-color);
@@ -53,9 +51,8 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
-.menu-link,
-.mail-link,
-.tel-link{
+.menu-link
+{
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -63,9 +60,19 @@ letter-spacing: 0.03em;
   letter-spacing: 0.02em;
 }
 
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
+}
+
+.mail-link{
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575
 }
 
 .mail-link:hover,
@@ -73,10 +80,18 @@ letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
+.tel-link{
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
 
 .tel-link:hover,
 .tel-link:focus {
-  color: var(--accent-color);
+ color: var(--accent-color);
 }
 
 /* -------------end header----------- */
@@ -88,8 +103,9 @@ letter-spacing: 0.03em;
   line-height: 1.87;
   background-color: transparent;
   cursor: pointer;
-  background-color: #2196f3;
-  color:white;
+  letter-spacing: 0.06em;
+  background: #2196F3;
+  color: #FFFFFF;
 }
 
 
@@ -97,12 +113,14 @@ letter-spacing: 0.03em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color:white
 }
 
+.hero{
+   text-align: center;
+}
 /* ==============works============= */
 .works{
   background-color: #2F303A;
@@ -171,7 +189,7 @@ letter-spacing: 0.03em;
 
 }
 .address-tel-link {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -191,12 +209,7 @@ letter-spacing: 0.03em;
 
 
  /* ============Классы для портфолио============= */
- /* ==================header=============== */
 
-  .color{
-    background-color: #ECECEC;
-  }
-  /* ============end header============= */
   /* ===============main=================== */
 .backcolor{
   background-color: #EEEEEE;
