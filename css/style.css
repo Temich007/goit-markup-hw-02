@@ -20,6 +20,7 @@ body {
   font-family: var(--main-font);
   color: var(--primary-text-color);
   color: var(--title-text-color);
+  
 
 }
 
@@ -37,7 +38,7 @@ body {
 
 /*--------- Header--------- */
 
-.menu-link .current{
+.menu .menu-link.current {
    color: var(--accent-color);
 }
 
